@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        body {
+            font-family: "Work Sans", sans-serif;
+            /*Medidas Absolutas
+            cm, mm, in(polegadas), px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px é igual a = 1em
+            */
+            font-size: 1em;
+            /*light normal bold bolder, 100-900 */
+         
+        }
+
+        h1 {
+            /*font-family: "Work Sans", sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */ 
+            /* shorthand font:        
+            font-style => font-weight => font-size => font-family
+            */
+            font: italic bolder 3em "Work Sans", sans-serif;
+            }
+
+            h2 {
+                font: bold 2m "Work Sans", sans-serif;
+            }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae reprehenderit saepe deserunt assumenda similique, doloremque provident fugit dolorum culpa sint optio molestiae consequuntur. Ab sapiente quos sed alias itaque eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto laborum ipsa. Vero quod necessitatibus cupiditate aperiam maiores. Nobis mollitia natus libero debitis neque alias ducimus exercitationem veniam. Quae, sequi.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem sint asperiores magnam quasi sed dicta eum, unde id magni doloremque recusandae qui. Sed fugit cum repellat molestias voluptatibus nostrum eaque.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, modi ex esse, omnis natus qui odio assumenda atque officia amet laborum quibusdam praesentium, itaque id distinctio enim fuga nam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, similique. Deserunt architecto, obcaecati id totam minima consequuntur molestias ducimus dolore quo dolores, consequatur quia distinctio. Non sed tempore minus labore.</p>
+</body>
+</html>
