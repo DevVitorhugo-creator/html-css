@@ -69,6 +69,7 @@ div {
     background-color: rgba(0, 0, 0, 0.432);
     display: inline-block;
     padding: 5px;
+    text-shadow: 2px 1px 3px black;
 }
 div p {
     margin: 0;
